@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 def ask():
-    return int(raw_input("Introduce un numero: "))
+    return int(raw_input("Enter a number: "))
 
 def main():
     num = ask()
