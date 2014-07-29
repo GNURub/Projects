@@ -7,7 +7,7 @@ def ask():
         type_conv = sys.argv[1]
         num = int(sys.argv[2])
     except:
-        type_conv = raw_input("Enter a type to converter [dec/bin]: ")
+        type_conv = raw_input("Enter a type to convert [dec/bin]: ")
         num = int(raw_input("Enter a number: "))
     return type_conv, num
 
