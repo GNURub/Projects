@@ -11,7 +11,7 @@ def main():
             sub += int(k) ** 2
         num = sub
         sub = 0
-    print "Es un numero feliz"
+    print "It is a happy number"
         
         
 
